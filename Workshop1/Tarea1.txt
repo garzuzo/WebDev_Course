@@ -1,0 +1,4 @@
+HTML CSS JS
+Realizar el ejemplo de la foto. Cuando se haga click en algunos de las areas (employment or education) mostrar u ocultar el detalle de la zona que se hizo click. Usar información diferente a la del ejemplo.
+
+PLUS: Eliminar o agregar programming skills.
