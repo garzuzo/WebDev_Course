@@ -9,15 +9,16 @@ display:inline;
 }
 .north{
 
-
-    display: inline-block;
+padding: 100px;
+    display: inline;
+    margin:auto;
 
 }
 #image{
     display: inline-block;
     position: relative;
     width:100px;
-   left:50px;
+   right:20px;
    top:20px;
     border-color:grey;
     border-style:solid; 
@@ -30,16 +31,11 @@ display:inline;
     display: inline-block;
     position: relative;
 bottom: 50px;
-left:70px;
+left:20px;
 
-  
+font-weight: bold;
 }
-.name{
 
-    font-weight: bold;
-     
-
-}
 .quest{
     font-weight: bold;
 }
@@ -47,28 +43,29 @@ left:70px;
    
    
     color:cornflowerblue;
-    display: inline-block;
+    display: inline;
     position: relative;
-  right:85px;
+  right:150px;
 bottom: 24px;
 
 
 }
 .info{
-bottom:100px;
-   float:right;
+
+   left:40%;
    font-size: 10px;
     position:relative;
+    display:inline-block;
     
 }
-.description{
-    position: relative;
+#description{
     display: inline-block;
-    left:20px;
-   
-text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 10px;
-    border-bottom-style: solid;
-    border-bottom-color: black;
+position: relative;
+left:5%;
+    font-weight: normal;
+  
+ border-bottom-color: gray;
+border-bottom-style: ridge;
+padding-bottom: 10%;
 }
+
