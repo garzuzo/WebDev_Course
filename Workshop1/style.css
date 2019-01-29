@@ -1,10 +1,12 @@
 
 
-h5{
-    font-weight: bold;
-    display: inline-block;
-}
 
+
+p{
+
+display:inline;
+
+}
 .north{
 
 
@@ -12,24 +14,30 @@ h5{
 
 }
 #image{
+    display: inline-block;
+    position: relative;
     width:100px;
-    padding-right: 20px;
-    padding-left:30px;
-    padding-top: 30px;
+   left:50px;
+   top:20px;
+    border-color:grey;
+    border-style:solid; 
+    border:1%;
 }
 .fullname{
-    
-   
+    font-size:20px; 
+   font-family: "Sarabun";
     text-transform: uppercase;
     display: inline-block;
     position: relative;
+bottom: 50px;
+left:70px;
 
   
 }
 .name{
 
-    
-   
+    font-weight: bold;
+     
 
 }
 .quest{
@@ -38,20 +46,29 @@ h5{
 .career{
    
    
-    color:blue;
+    color:cornflowerblue;
     display: inline-block;
     position: relative;
- offset: bottom;
+  right:85px;
+bottom: 24px;
+
+
 }
 .info{
-
+bottom:100px;
    float:right;
    font-size: 10px;
     position:relative;
+    
 }
 .description{
-
-  
-    position:relative;
-
+    position: relative;
+    display: inline-block;
+    left:20px;
+   
+text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
 }
