@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+
+	font-family: 'Ubuntu', sans-serif;
+	 margin:20px auto;
+  border: 10px solid black;
+}
+h1{
+	color:gray;
+}
+#intro{
+	text-align:justify;
+
+}
+#imgArch{
+	border:10px solid cyan;
+}

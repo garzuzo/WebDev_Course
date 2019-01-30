@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="blog.css">
+
+</style>
+March 13 2018
+<h1>This is my first article</h1>
+<div class="Article">
+<p id="arch">This article is a general list of applications sorted by category, as a reference for those looking for packages. Many sections are split between console and graphical applications.
+</p>
+</div>
+<div class="abstract">
+This document is an annotated index of popular articles and important information for improving and adding functionalities to the installed Arch system. Readers are assumed to have read and followed the Installation guide to obtain a basic Arch Linux installation. Having read and understood the concepts explained in #System administration and #Package management is required for following the other sections of this page and the other articles in the wiki
+</div>
+</body>
+</html>

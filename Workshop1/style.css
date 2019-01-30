@@ -223,14 +223,14 @@ font-weight: bold;
     margin-left: 5%;
     margin-right:5%;
     font-family:"Sarabun";
-  border-style: none;
+  border-style: solid;
 
 }
 
 .all{
     margin-left: 5%;
     margin-right: 5%;
-    border-style: none;
+    border-style: solid;
     border-color:gray;
   
 }
