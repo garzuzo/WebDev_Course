@@ -108,7 +108,7 @@ font-weight:bold;
     border-bottom-style: dotted;
 
     border-color:rgb(201, 201, 201);
-
+width:620px;
     padding-bottom:30px;
 }
 
@@ -150,12 +150,13 @@ font-weight:bold;
    font-weight: bold;
 }
 .js-skill{
-    background-color: blanchedalmond;
+    background-color: rgb(209, 158, 83);
    width:20%;
    text-align: right;
    color:white;
    font-weight: bold;
 }
+
 
 
 .empty-skill{
@@ -186,13 +187,20 @@ font-family: "Sarabun";
 display: inline-block;
 width:85%;
 height: 1px;
+margin:1px;
+
+}
+#prog-skills{
+
+    display:inline-block;
 
 }
 
 .lang-skill{
     
-    display: inline-block;
+    display: inline;
     position:relative;
+   
     border-style:none;
  left:15px;
    text-justify: auto;
@@ -215,6 +223,16 @@ font-weight: bold;
     margin:auto;
     left:19px;
 }
+#icons{
+
+    float:right;
+   position:relative;
+   bottom:28px;
+   right:25px;
+   font-size:20px;
+
+   color:rgb(207, 204, 204);
+}
 
 
 .all-border{
@@ -223,14 +241,15 @@ font-weight: bold;
     margin-left: 5%;
     margin-right:5%;
     font-family:"Sarabun";
-  border-style: solid;
+  border-style: none;
 
 }
 
 .all{
     margin-left: 5%;
     margin-right: 5%;
-    border-style: solid;
+    border-style: none;
     border-color:gray;
-  
+    
+    position: relative;
 }
