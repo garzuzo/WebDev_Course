@@ -1,0 +1,27 @@
+.btn-danger{
+
+background-color: blueviolet;
+
+}
+
+.pink{
+
+    background-color: palevioletred;
+border:1px blueviolet solid;
+}
+
+.purple{
+
+    background-color: blueviolet;
+border:1px palevioletred solid;
+}
+
+body{
+padding-top:70px;
+   
+}
+
+.navbar-dark .nav-link .navbar-nav{
+
+    color:#ca2929;
+}
