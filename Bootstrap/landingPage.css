@@ -1,0 +1,61 @@
+
+
+#main-text{
+
+
+
+    font-size: 50px;
+    font-family: "Staatliches";
+    display:inline-block;
+    position:relative;
+top:120px;
+    left:40px;
+   
+}
+#brand{
+    font-size: 20px;
+    font-family: "Staatliches";
+    display:inline-block;
+    position:relative;
+}
+
+#main-photo{
+
+width:600px;
+
+display:inline-block;
+    position:relative;
+
+    left:30%;
+    bottom:120px;
+
+}
+
+#descr{
+
+    font-size:20px;
+    font-family: "Staatliches";
+    display:inline-block;
+    position:relative;
+    width:26%;
+    top:110px;
+    left:40px;
+}
+
+#price{
+
+    display: inline-block;
+    position:relative;
+    bottom:80px;
+    left:70px;
+    text-align: center;
+}
+#all-buttons{
+
+
+    display:inline-block;
+    position:relative;
+
+    left:55%;
+ 
+}
