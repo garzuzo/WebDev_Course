@@ -1,0 +1,37 @@
+
+
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1517994112540-009c47ea476b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80");
+
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+
+.lato{
+    font-family:"Lato",sans-serif;
+ 
+}
+
+
+#brand{
+
+    text-align: center;
+    font-size:70px;
+}
+hr{
+   
+    border-color:white;
+    
+}
+.color{
+
+    color:white;
+}
+
+.signlog{
+
+    display:inline-block;
+
+}
