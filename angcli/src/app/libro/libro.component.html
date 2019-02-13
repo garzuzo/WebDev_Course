@@ -1,0 +1,73 @@
+<!--<div class="container">
+
+  <h3>Detalles de {{libro.name}}</h3>
+
+  id: {{libro.id}} <br>
+  nombre: {{libro.name}}<br>
+  autor: {{libro.author}}<br>
+
+
+  <br>
+  <br>
+
+
+  <div>
+
+    <label>name:
+
+      <input [(ngModel)]="libro.name" placeholder="inserte el nombre">
+
+    </label>
+
+
+
+  </div>
+  <div>
+
+    <label>id:
+
+      <input [(ngModel)]="libro.id" placeholder="inserte el id">
+
+    </label>
+
+  </div>
+
+
+  <div>
+
+    <label>autor:
+
+      <input [(ngModel)]="libro.author" placeholder="inserte el autor">
+
+    </label>
+
+  </div>
+
+
+
+</div>-->
+
+<div class="container">
+  <div class="libro-list" *ngIf="libros else loading">
+    <h3>Listado de Libros</h3>
+    <ul *ngFor="let lib of libros" (click)="mostrarDetalle(lib)">
+      <li>
+        id: {{lib.id}} <br>
+        nombre: {{lib.name}}<br>
+        autor: {{lib.author}}<br>
+
+      </li>
+
+    </ul>
+  </div>
+  <ng-template #loading>
+<div>Loading...</div>
+  </ng-template>
+
+  <app-libro-detail [libro]="libroSelected">
+
+  </app-libro-detail>
+
+  
+</div>
+
