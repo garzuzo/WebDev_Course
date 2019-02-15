@@ -1,4 +1,4 @@
-<div *ngIf="libro.id">
+<div *ngIf="libro.id else crear">
   <h3>Detalles de {{libro.name}}</h3>
 
 id: {{libro.id}} <br>
@@ -17,3 +17,9 @@ autor: {{libro.author}}<br>
   <label for="author">  autor:</label>
   <input type="text" [(ngModel)]="libro.author" id="author" name="author" placeholder="inserte el autor">
 </div>
+ <!--eventos-->
+<button class="btn btn-info"  (click)="onGuardar(this.libro)">Guardar</button>
+<ng-template #crear>
+
+  <h3>Nuevo Libro</h3>
+</ng-template>

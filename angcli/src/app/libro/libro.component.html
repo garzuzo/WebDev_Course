@@ -50,24 +50,40 @@
 <div class="container">
   <div class="libro-list" *ngIf="libros else loading">
     <h3>Listado de Libros</h3>
-    <ul *ngFor="let lib of libros" (click)="mostrarDetalle(lib)">
-      <li>
-        id: {{lib.id}} <br>
-        nombre: {{lib.name}}<br>
-        autor: {{lib.author}}<br>
 
+    <ul class="list-group" *ngFor="let lib of libros"  >
+      <li class="list-group-item">
+        <div class="container" *ngIf="lib.id!=-1">
+          <div class="row" >
+            <div class="col-sm">
+              id: {{lib.id}} <br>
+            </div>
+            <div class="col-sm">
+              nombre: {{lib.name}}<br>
+            </div>
+            <div class="col-sm">
+              autor: {{lib.author}}<br>
+            </div>
+            <div class="col-sm">
+
+                <button type="button" class="btn btn-info mr-3" (click)="mostrarDetalle(lib)">Edit</button>
+                <button type="button" class="btn btn-danger" (click)="eliminarDetalle(lib)">Delete</button>
+            </div>
+          </div>
+        </div>
       </li>
 
     </ul>
+
   </div>
   <ng-template #loading>
-<div>Loading...</div>
+    <div>Loading...</div>
   </ng-template>
 
-  <app-libro-detail [libro]="libroSelected">
+  <!--propiedades atributos-->
+  <app-libro-detail [libro]="libroSelected" (guardar)="onSave($event)">
 
   </app-libro-detail>
 
-  
-</div>
 
+</div>
