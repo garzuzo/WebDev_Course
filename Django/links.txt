@@ -1,0 +1,13 @@
+Django:
+
+https://hackr.io/blog/what-is-django-advantages-and-disadvantages-of-using-django
+https://steelkiwi.com/blog/why-django-best-web-framework-your-project/
+https://hackernoon.com/advantages-and-disadvantages-of-django-499b1e20a2c5
+https://medium.com/crowdbotics/when-to-use-django-and-when-not-to-9f62f55f693b
+
+//otras opciones
+https://docs.djangoproject.com/en/2.1/ -> https://docs.djangoproject.com/en/2.1/intro/
+https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html
+https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/
+https://www.fullstackpython.com/django.html
+https://www.codementor.io/mirjuned/a-beginner-s-guide-to-learning-django-i754etkkm

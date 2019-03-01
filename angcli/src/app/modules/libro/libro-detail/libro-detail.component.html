@@ -1,0 +1,25 @@
+<div *ngIf="libro.id else crear">
+  <h3>Detalles de {{libro.name}}</h3>
+
+id: {{libro.id}} <br>
+nombre: {{libro.name}}<br>
+autor: {{libro.author}}<br>
+
+</div>
+<div>
+
+  <label for="name">  nombre:</label>
+  <input type="text" [(ngModel)]="libro.name" id="name" name="name" placeholder="inserte el nombre">
+</div>
+
+<div>
+
+  <label for="author">  autor:</label>
+  <input type="text" [(ngModel)]="libro.author" id="author" name="author" placeholder="inserte el autor">
+</div>
+ <!--eventos-->
+<button class="btn btn-info"  (click)="onGuardar(this.libro)">Guardar</button>
+<ng-template #crear>
+
+  <h3>Nuevo Libro</h3>
+</ng-template>

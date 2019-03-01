@@ -1,6 +1,6 @@
 export class Libro{
 
-    id:number;
+    id:string;
     name:string;
     author:string;
 
