@@ -7,18 +7,32 @@ import { AppComponent } from './app.component';
 import { LibroComponent } from './libro/libro.component';
 import { LibroDetailComponent } from './libro-detail/libro-detail.component';
 
+//new
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { HeaderComponent } from './components/header/header.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LibroComponent,
     LibroDetailComponent,
-   
+    HeaderComponent,
+    InicioComponent,
+    FooterComponent,
+ 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

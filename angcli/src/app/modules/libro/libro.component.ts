@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { Libro } from '../models/libro';
-import { LibroService } from '../services/libro.service';
+import { Libro } from '../../models/libro';
+import { LibroService } from '../../services/libro.service';
 import { Subscription } from 'rxjs';
 
 @Component({
